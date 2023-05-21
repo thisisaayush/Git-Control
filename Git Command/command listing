@@ -1,0 +1,17 @@
+Command Listing- Part 1
+    a. pwd
+    b. mkdir projects   
+    c. cd projects  
+    d. pwd  
+
+Command Listing- Part 2
+    a. git version 
+    b. git config --global user.name "Tony Start"
+    c. ls 
+    d. cd github-demo 
+    e. echo 
+    f. cat start.txt 
+    g. git add start.txt 
+    h. git status 
+    i. git commit -m "added start.txt file" 
+    j. git push origin master 
