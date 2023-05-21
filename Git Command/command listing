@@ -15,3 +15,6 @@ Command Listing- Part 2
     h. git status 
     i. git commit -m "added start.txt file" 
     j. git push origin master 
+    k. git config --global init.defaultBranch main 
+    l. git config --global --list 
+    
