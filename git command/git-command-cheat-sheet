@@ -1,3 +1,5 @@
+"master" branch name is migrated to "main" branch as a default.
+
 Command Listing- Part 1
     a. pwd
     b. mkdir projects   
@@ -17,4 +19,11 @@ Command Listing- Part 2
     j. git push origin master 
     k. git config --global init.defaultBranch main 
     l. git config --global --list 
+    m. cls
+    n. rmdir /s .git
+    o. rmdir -rf .git
+
+Command Listing- Part 3
+    a. git branch -m main - to change the branch to main 
+    
     
