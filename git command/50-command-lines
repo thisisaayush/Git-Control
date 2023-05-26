@@ -1,0 +1,10 @@
+1.   whoami - returns the username. 
+2.   man -gets the manual. 
+3.   clear | cls - clears the terminal screen.
+4.   clear -x - open the  clear line on terminal screen.
+5.   pwd - opens the path of the directory. 
+6.   ls - list the content of the directory.
+7.   cd - changes directory. Example: cd desktop 
+8.   mkdir - creates folder. Example: mkdir folder-name
+9.   mkdir -p - creates multiple nested folders. Example: mkdir -p programming/python
+10.  touch - creates files. Example: touch <python class="py"></python>
