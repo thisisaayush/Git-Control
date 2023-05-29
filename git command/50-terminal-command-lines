@@ -1,0 +1,20 @@
+1.   whoami - returns the username. 
+2.   man -gets the manual. 
+3.   clear | cls - clears the terminal screen.
+4.   clear -x - open the  clear line on terminal screen.
+5.   pwd - opens the path of the directory. 
+6.   ls - list the content of the directory.
+7.   cd - changes directory. Example: cd desktop 
+8.   mkdir - creates folder. Example: mkdir folder-name
+9.   mkdir -p - creates multiple nested folders. Example: mkdir -p programming/python
+10.  touch - creates files. Example: touch apple
+11.  rmdir - delete folders. Example: rmdir fruits 
+12.  rm - removes files or folders. Example rm file-name | rm folder-name
+13.  open - opens directory or files.
+14.  mv - move or rename files. Example: touch fruits and then mv fruits fruits_list renamed it.
+15.  cp - copies files or folders. Example: fruits_list -- cp fruits_list copies_fruits_list 
+16.  head - returns out first n lines of a file. 
+17.  head file-name -n value- returns that n lines of a file from top.
+18.  tail - returns the last parts of file line. 
+19.  tail file-name -n value - returns that n lines of a file from bottom. 
+20.  date - returns the current date and time. 
