@@ -17,4 +17,10 @@
 17.  head file-name -n value- returns that n lines of a file from top.
 18.  tail - returns the last parts of file line. 
 19.  tail file-name -n value - returns that n lines of a file from bottom. 
-20.  date - returns the current date and time. 
+20.  date - returns the current date and time.
+21.  date >> file-name ->> symbols to add the current date to the given file. Example: date > fruit.txt
+22.  cat - concatenates files and returns their concatenated output. Example: cat file1 file2. 
+23.  cat file-names > new-file - concatenates all the fils to new-file.
+24.  less - shows the content stored inside a file in an interactive way. 
+25.  echo - prints the return output. Example: echo "Hello"- prints Hello
+26.  echo "type strings" > file-name.  
