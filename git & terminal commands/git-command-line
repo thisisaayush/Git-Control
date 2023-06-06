@@ -35,7 +35,10 @@ Note: Branching Strategies depends on "Team | Projects" etc.
 
 Pull Requests
 - invites reviewers to provide feedback before merging.
-- contribute code to other repositories where one doesn't have access to merge such as open source project. 
+- contribute code to other repositories where one doesn't have access to merge such as open source project.
+
+Merge Conflicts
+- occurs when a version of a file has been submitted that is newer than the version of the file you have stated to base your changes on. 
 
 ---------------------------------------------------------------------------------------------------------------------------
 "master" branch name is migrated to "main" branch as a default.
