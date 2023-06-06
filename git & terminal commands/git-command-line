@@ -39,7 +39,7 @@ Pull Requests
 
 Merge Conflicts
 - occurs when a version of a file has been submitted that is newer than the version of the file you have stated to base your changes on. 
-
+- easiest way to resolve a conflicted file is to open it and make any necessary changes.
 ---------------------------------------------------------------------------------------------------------------------------
 "master" branch name is migrated to "main" branch as a default.
 
