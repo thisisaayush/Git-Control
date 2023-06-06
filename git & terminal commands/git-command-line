@@ -1,3 +1,43 @@
+Git Command Line
+1. git commit - add changes and message. 
+2. git stagging- select individual file or partial file for commits. 
+3. git add file-name
+4. git diff file-name: shows what has changed.
+5. git status. 
+6. git log: helps to check the commits made. 
+7. git branching. 
+
+A Written Convention:
+i.  Highly depends on teams and projects.
+
+
+Integrating Changes & Structuring Releases: 
+i.  Mainline Development- "Always Be Integrating"
+-   single branch where everyone commits their work.
+-   very few branches. 
+-   commits are relatively small due to constant integration model. 
+-   must have high quality testing and QA standard is top notch. 
+
+ii. State, Release, and Feature Branches
+-   different types of branches. 
+-   fulfill different types of jobs. 
+
+Long-Running Branches- Main or Master Branch | Develop Branch so on. 
+- exist through the complete lifetime of the project. 
+- no direct commits, it should be done through merge or rebase to make sure the code is reviewed and test. 
+
+Short-Lived Branches: Feature branch
+- usually done for new features, bug fixes, refactorings, experiments. 
+- will be deleted after integrations- merge. (merge/rebase)
+
+Note: Branching Strategies depends on "Team | Projects" etc. 
+
+
+Pull Requests
+- invites reviewers to provide feedback before merging.
+- contribute code to other repositories where one doesn't have access to merge such as open source project. 
+
+---------------------------------------------------------------------------------------------------------------------------
 "master" branch name is migrated to "main" branch as a default.
 
 Git Command Listing- Part 1
@@ -16,8 +56,8 @@ Git Command Listing- Part 1
     m. cls
     n. rmdir /s .git
     o. rmdir -rf .git
+    p. git clone link. 
 
 Git Command Listing- Part 3
     a. git branch -m main - to change the branch to main 
-    
     
