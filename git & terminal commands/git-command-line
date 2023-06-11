@@ -1,4 +1,5 @@
-Git Command Line
+Git Command Line- Master check
+
 1. git commit - add changes and message. 
 2. git stagging- select individual file or partial file for commits. 
 3. git add file-name
