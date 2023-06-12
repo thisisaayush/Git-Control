@@ -1,12 +1,33 @@
-Git Command Line- Master check
+Top 10 Git Commands:
 
-1. git commit - add changes and message. 
-2. git stagging- select individual file or partial file for commits. 
-3. git add file-name
-4. git diff file-name: shows what has changed.
-5. git status. 
-6. git log: helps to check the commits made. 
-7. git branching. 
+1. git clone- This command is for downloading existing source code from a remote repo. It is to make an identical copy of the latest version of a project in a repo and save in a computer. 
+: git clone <name-of-the-repository-link>
+2. git branch- This command allows several developers to be able to work in parallel on the same project simultaneously.
+: git branch <branch-name>
+    * The git command for viewing branches: git branch --list
+    * The git command for deleting branche: git branch -d <branch-name>
+3. git checkout- This command is used to switch from a branch to another branch. 
+: git checkout <name-of-a-branch>
+4. git status- This command is used to see all the necessary info about the current branch.
+: git status. 
+5. git add- This command is to add changes into the next commit. 
+: git add <file-name>
+    * To add all the changes at once: git add .
+6. git commit- This command is used to save the changes and updates a developer has made. 
+: git commit -m "commit-message"
+7. git push- This command is to upload the commits to the remote repo once the changes are commited. 
+: git push <remote> <branch-name>
+    * For a newly created branch- git push --set-upstream <remote> <name-of-your-branch>
+8. git pull- This command is used to get updates from the remote repo. 
+: git pull <remote>
+9. git revert- This command is used to undo the changes that were made. 
+: git revert <commit-hash-code>
+10. git merge- This command is used to merge the branch that is completed in development. 
+    * First switch to the <dev> branch- git checkout dev
+    * Update the local dev branch- git fetch 
+    * Merge the feature branch into dev: git merge <branch-name> 
+
+---------------------------------------------------------------------------------------------------------------------------
 
 A Written Convention:
 i.  Highly depends on teams and projects.
